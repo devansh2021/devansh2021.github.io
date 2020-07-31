@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/s1.jpg" alt="" />
+        <img src="img/s3.jpg" alt="" />
+        <img src="img/s2.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">DEVANSH SUWALKA</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Devansh Suwalka</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/about_me1.jpg" />
+          </div>
+
+          <div class="col-md-7">
+            <h4>Hello, I'm Devansh Suwalka</h4>
+
+            <p>
+              I'm a pre-final year Undergraduate student pursuing Computer
+              Science and Engineering at Netaji Subhas Institute of Engineering
+              (NSIT), New Delhi, India. I strive to work hard, adapt to new
+              technologies and want to make a meaningful impact on the lives of
+              people around the world using my skills and knowledge. I have a
+              curiosity in the field of Application Development and Machine
+              Learning. I am also passionate about Open-source Technologies and
+              keen to be an active contributor to those organizations that
+              create impactful code.
+              <a
+                href="https://drive.google.com/file/d/1btJGZYJDupOu4wgQ60zG47t6EmHwJpyH/view?usp=sharing"
+                >Resume</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+              <li><a href="#" data-filter=".me">Me</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/corona.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/rank.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Track Number of Cases"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="https://github.com/devansh2021/COVID-19-Tracker"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/idea.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/quiz1.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Website also contains quiz section along with tracker"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="https://devansh2021.github.io/covid19-dash/"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/object.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/object.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Object detection and identification using YOLO Tiny"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="https://github.com/devansh2021/chain-list"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/portfolio-1.png" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/workspace.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="My portfolio"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="https://github.com/devansh2021/devansh2021.github.io"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">
+          I am always excited to work on some awesome projects, message me and
+          let's discuss over coffee.
+        </p>
+        <h2>Coffee with me.</h2>
+
+        <a href="mailTo:devanshsuwalka@gmail.com" class="contactButton"
+          >GET IN TOUCH!</a
+        >
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section"></div>
+
+    <div id="stats" class="statsSection section"></div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <style>
+          .heart {
+            color: #e25555;
+          }
+        </style>
+        Made with <span class="heart">❤</span> in India
+      </div>
+    </div>
+
+    <script src="js/countUp.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
